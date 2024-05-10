@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    /*---date objects
+        let d1=new Date() //---1
+        console.log(d1)
+
+        let d2=new Date(3000) //---2
+        console.log(d2)
+
+        let d3=new Date("9 may 2024")  //----3
+        console.log(d3)
+
+        let d31=new Date('2024,may 9') //----3
+        console.log(d31)
+
+        let d4=new Date(2024,7,9,3,35,25,3000) //-----4
+        console.log(d4)
+    -----*/
+
+
+/*----getting methods
+    let d=new Date()
+    console.log(d)
+
+    console.log(d.getFullYear())
+    console.log(d.getHours())
+    console.log(d.getMinutes())
+    console.log(d.getSeconds())
+    console.log(d.getMilliseconds())
+    console.log(d.getDay())
+    console.log(d.getUTCFullYear())
+-----*/
+
+/*---setting methods
+    let d1=new Date()
+    console.log(d1)
+
+    d1.setDate(10)
+    console.log(d1)
+
+    d1.setMonth(5)
+    console.log(d1)
+
+    d1.setFullYear(2025)
+    console.log(d1)
+
+    d1.setHours(6)
+    console.log(d1)
+
+    d1.setSeconds(56)
+    console.log(d1)
+
+    d1.setMinutes(56)
+    console.log(d1)
+-----------*/
+
+
+/*----string representations
+     let d=new Date()
+     console.log(d)
+
+     let d1=d.toDateString()
+     console.log(d1)
+
+     let d2=d.toTimeString()
+     console.log(d2)
+
+     let d3=d.toLocaleString()
+     console.log(d3)
+
+     let d4=d.toLocaleDateString()
+     console.log(d4)
+
+     let d5=d.toLocaleTimeString()
+     console.log(d5)
+
+     let d6=d.getTime()
+     console.log(d6)
+
+     let d7=d.valueOf()
+     console.log(d7)
+------*/
+
+
+    /*------Object methods
+        let e1={
+
+            id:111,
+            name:'john',
+            salary:30000
+        }
+        console.log(e1)
+
+        /*----entries ,fromEntries
+        let e2=Object.entries(e1)
+        console.log(e2)
+
+        let e3=Object.fromEntries(e2)
+        console.log(e3)
+        -------*
+
+        let e2={
+            id:111,
+            email:'john@gmail.com',
+            location:'hyd'
+        }
+        console.log(e2)
+
+/*--------Object.assign(),object.is(),Object.hasOwn(),hasOwnProperty()
+        console.log(Object.assign(e1,e2))
+
+        console.log(Object.is(e1.id,e2.id))
+        console.log(Object.is(e1.id,e2.eid))
+
+        console.log(Object.hasOwn(e1,'id'))
+        console.log(Object.hasOwn(e1,'email'))
+        console.log(Object.hasOwn(e1,'mobile'))
+
+        console.log(e1.hasOwnProperty('id'))
+        console.log(e1.hasOwnProperty('email'))
+        console.log(e1.hasOwnProperty('mobile'))
+
+
+/*-----rest parameter
+        function fun(a,b)
+        {
+            return a+b
+        }
+        console.log(fun(1,2))
+        console.log(fun(1,2,3,4,5))
+
+/*---spread operator
+        let  str="hello"
+        console.log(str)
+        console.log(...str)
+-------------*/
+
+
+        let e1={
+
+        }
+        console.log(e1)
+
+        console.log(Object.defineProperty(e1,'id',{value:111}))
+        console.log(Object.defineProperty(e1,'name',{value:'john'}))
+
+
+
+        let e2={
+            
+        }
+        console.log(e2)
+
+        Object.defineProperties(e1,{
+
+            id:{value:111},
+            name:{value:'joe'},
+            salary:{value:30000}
+        })
+        console.log(e2)
+        
+    </script>
+</body>
+</html>
